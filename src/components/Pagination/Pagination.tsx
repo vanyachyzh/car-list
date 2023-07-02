@@ -58,7 +58,7 @@ export const Pagination: React.FunctionComponent<PaginationProps> = ({ totalItem
                 onClick={handlePrevClick}
                 type={"button"}
                 aria-label={"Previous"}
-                disabled={currentPage <= 1 || inputVal > totalPages}
+                disabled={currentPage <= 1}
             >
                 <i className="icon">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
