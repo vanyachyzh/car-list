@@ -1,0 +1,43 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    &__toggle {
+        border: none;
+        border-radius: 4px;
+        padding: 8px 12px;
+        font-size: 14px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    }
+
+    &__menu {
+        overflow: hidden;
+        border-radius: 4px;
+        position: absolute;
+        width: 120%;
+        top: 100%;
+        right: 0;
+        margin-top: 4px;
+        display: block;
+        z-index: 1;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    &__option {
+        border: none;
+        width: 100%;
+        padding: 8px 0;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    }
+}
