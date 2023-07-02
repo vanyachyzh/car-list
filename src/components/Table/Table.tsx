@@ -27,7 +27,7 @@ export const Table: React.FC<Props> = ({ cars, openModal }) => {
                     <tr key={car.id}>
                         <td>{car.car}</td>
                         <td>{car.car_model}</td>
-                        <td>{car.id}</td>
+                        <td>{car.car_vin}</td>
                         <td>{car.car_color}</td>
                         <td>{car.car_model_year}</td>
                         <td>{car.price}</td>
